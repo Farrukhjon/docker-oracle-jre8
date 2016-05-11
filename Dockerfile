@@ -13,7 +13,7 @@ RUN wget --quiet \
          --no-check-certificate \
          --no-cookies \
          --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-         http://download.oracle.com/otn-pub/java/jdk/8u66-b17/jre-8u66-linux-x64.tar.gz && \
+         http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jre-8u92-linux-x64.tar.gz && \
     mkdir -p /usr/lib/jvm/jre1.8 && \
     tar --gunzip --extract --verbose --file /jre-8.tar.gz --directory /usr/lib/jvm/jre1.8 --strip-components 1 && \
     rm -f /jre-8.tar.gz && \
