@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-MAINTAINER farrukhjon SATTOROV firedandy@gmail.com
+MAINTAINER Farrukhjon D. SATTOROV, firedandy@gmail.com
 
 # Install wget
 RUN apt-get --quiet update && \
